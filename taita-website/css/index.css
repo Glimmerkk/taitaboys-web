@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f4f8fc;
+  color: #222;
+}
+
+.top-bar {
+  background-color: maroon;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.school-name {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+#menu-toggle {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  background-color: white;
+  color: maroon;
+  border: none;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: maroon;
+}
+
+.nav ul li {
+  padding: 0.5rem;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav.hidden {
+  display: none;
+}
+
+.intro, .leader, .remarks {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.circular-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid maroon;
+}
+
+.marquee {
+  background-color: maroon;
+  color: white;
+  padding: 0.7rem;
+  font-weight: bold;
+}

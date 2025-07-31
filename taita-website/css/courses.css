@@ -1,0 +1,109 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+/* Top navigation bar */
+.top-bar {
+  background-color: maroon;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-toggle {
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.school-title {
+  font-size: 1.2rem;
+}
+
+/* Navigation menu */
+.nav {
+  background-color: #eee;
+  padding: 10px 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin-bottom: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: maroon;
+  font-weight: bold;
+}
+
+/* Hide menu by default */
+.hidden {
+  display: none;
+}
+
+/* Marquee Styling */
+.marquee {
+  margin: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: maroon;
+}
+
+/* Contact Info */
+.contact {
+  margin: 10px 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact a {
+  color: maroon;
+  text-decoration: none;
+}
+
+/* Courses Table */
+.courses-section {
+  margin: 20px;
+}
+
+.courses-section h2 {
+  color: maroon;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: maroon;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}

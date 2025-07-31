@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Activities - Taita Towett</title>
+  <link rel="stylesheet" href="../css/activities.css" />
+</head>
+<body>
+
+  <header class="top-bar">
+    <button id="menu-toggle" class="menu-toggle">&#9776;</button>
+    <h1 class="school-title">School Activities</h1>
+  </header>
+
+  <nav id="nav-menu" class="nav hidden">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="teachers.html">Teachers</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <marquee class="marquee">Hardwork Pays</marquee>
+
+    <section class="contact-info">
+      <p>
+        📧 Email: <a href="mailto:kiptoo445120@gmail.com">kiptoo445120@gmail.com</a><br>
+        📞 Contact: 0741 874 892
+      </p>
+    </section>
+
+    <section class="activities-section">
+      <h2>Co-curricular Activities</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Activity</th>
+            <th>Category</th>
+            <th>Day</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Football</td><td>Sports</td><td>Friday</td></tr>
+          <tr><td>Drama Club</td><td>Arts & Culture</td><td>Wednesday</td></tr>
+          <tr><td>Science Congress</td><td>Academics</td><td>Tuesday</td></tr>
+          <tr><td>Debate</td><td>Communication</td><td>Thursday</td></tr>
+          <tr><td>Music & Choir</td><td>Performing Arts</td><td>Monday</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="remarks">
+      <h2>Why Students Love Our Activities</h2>
+      <ul>
+        <li>"We gain teamwork and leadership through sports!" – James</li>
+        <li>"Drama club gives us confidence and fun!" – Stella</li>
+        <li>"We explore science beyond the classroom." – Brian</li>
+        <li>"Debate makes me a better speaker." – Lydia</li>
+        <li>"Music lifts our spirits and unites us." – Mark</li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("menu-toggle").onclick = () => {
+      document.getElementById("nav-menu").classList.toggle("hidden");
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome - Taita Towett Boys High School</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <header class="top-bar">
+    <button id="menu-toggle">&#9776;</button>
+    <h1 class="school-name">Taita Towett Boys High School</h1>
+  </header>
+
+  <nav id="nav-menu" class="nav hidden">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="teachers.html">Teachers</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Empowering the Future</h2>
+      <p>Welcome to the official website of Taita Towett Boys High School. We are dedicated to academic excellence and holistic development.</p>
+    </section>
+
+    <section class="leader">
+      <h3>Mr. Kiptoo K.D. – Principal</h3>
+      <div class="profile">
+        <img src="../images/principal.jpg" alt="Principal" class="circular-img"/>
+        <p>Mr. Kiptoo K.D., the dedicated Principal of Taita Towett Boys High School, brings over 17 years of committed service to the institution. A determined and hardworking leader, he has played a pivotal role in shaping the school's academic growth, discipline, and infrastructural development.</p>
+      </div>
+
+      <h3>Mr. Dan Bett – Deputy Principal</h3>
+      <div class="profile">
+        <img src="../images/deputy.jpg" alt="Deputy Principal" class="circular-img"/>
+        <p>Mr. Dan Bett brings with him 4 years of dedicated leadership and a strong commitment to discipline and academic excellence. A focused, dependable, and supportive administrator, he works closely with the principal and staff to uphold high standards.</p>
+      </div>
+    </section>
+
+    <section class="remarks">
+      <h2>Our Teachers</h2>
+      <p>At Taita Towett Boys High School, our teachers are the backbone of excellence — dedicated, professional, nurturing, and inspirational.</p>
+
+      <h2>Board of Management Remarks</h2>
+      <p>The Board of Management (BoM) is proud to support the school’s vision of academic integrity, discipline, and growth through collaborative planning and infrastructure expansion.</p>
+
+      <h2>Student Remarks</h2>
+      <ul>
+        <li>"We love learning here!" – Brian</li>
+        <li>"Hard work truly pays off." – Alice</li>
+        <li>"Our teachers are amazing!" – Musa</li>
+        <li>"We welcome all new JSS students!" – Diana</li>
+        <li>"Proud to be part of Taita Towett!" – John</li>
+      </ul>
+
+      <h2>Teacher Remarks</h2>
+      <ul>
+        <li>"Teaching at Taita Towett is rewarding!" – Mr. Omondi</li>
+        <li>"We nurture discipline." – Ms. Wanjiku</li>
+        <li>"Every student matters." – Mr. Kiplangat</li>
+        <li>"Academic success is our priority." – Mrs. Njeri</li>
+        <li>"We welcome you warmly!" – Mr. Rono</li>
+        <li>"Join our family." – Ms. Cherono</li>
+      </ul>
+    </section>
+  </main>
+
+  <marquee class="marquee">School Motto: Hardwork Pays | Email: kiptoo445120@gmail.com | Contact: 0741874892</marquee>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const navMenu = document.getElementById("nav-menu");
+    toggle.addEventListener("click", () => {
+      navMenu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>

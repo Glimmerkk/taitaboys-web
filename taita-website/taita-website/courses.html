@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses - Taita Towett</title>
+  <link rel="stylesheet" href="../css/courses.css" />
+</head>
+<body>
+
+  <header class="top-bar">
+    <button id="menu-toggle" class="menu-toggle">&#9776;</button>
+    <h1 class="school-title">Taita Towett Boys High School</h1>
+  </header>
+
+  <nav id="nav-menu" class="nav hidden">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="teachers.html">Teachers</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <marquee class="marquee">Hardwork Pays</marquee>
+    <p class="contact">
+      📧 Email: <a href="mailto:kiptoo445120@gmail.com">kiptoo445120@gmail.com</a> |
+      📞 Contact: 0741 874 892
+    </p>
+
+    <section class="courses-section">
+      <h2>Courses Offered</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Requirements</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mathematics</td>
+            <td>Scientific calculator, geometry set</td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td>Oxford Dictionary, literature novels</td>
+          </tr>
+          <tr>
+            <td>Kiswahili</td>
+            <td>Kiswahili Kamusi, Fasihi books</td>
+          </tr>
+          <tr>
+            <td>Biology</td>
+            <td>Lab coat, Biology textbook</td>
+          </tr>
+          <tr>
+            <td>Chemistry</td>
+            <td>Lab coat, Chemistry logbook</td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td>Lab coat, Scientific calculator</td>
+          </tr>
+          <tr>
+            <td>Geography</td>
+            <td>Atlas, map set</td>
+          </tr>
+          <tr>
+            <td>History & Government</td>
+            <td>History textbook, notebook</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("nav-menu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+</html>
