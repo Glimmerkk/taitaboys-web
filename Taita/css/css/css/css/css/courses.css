@@ -1,0 +1,39 @@
+body {
+    background-color: #fef9f4;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #b85c00;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #804000;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+.courses-list {
+    list-style-type: square;
+    font-size: 1.2em;
+}
